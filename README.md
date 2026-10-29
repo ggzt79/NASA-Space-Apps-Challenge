@@ -5,39 +5,39 @@
 ```mermaid
 flowchart TD
 
-A[Project Submission] --> B{Meets Requirements?}
+A[Envío Proyecto] --> B{¿Cumple Requrimientos?}
 
-B -->|No| C[Rejected]
-B -->|Yes| D[Local Judging]
+B -->|No| C[Rechazado]
+B -->|Sí| D[Jurado Local]
 
-D --> E[Local Ranking]
+D --> E[Ranking Local]
 
-E --> F{Outstanding Project?}
+E --> F{¿Proyecto Sobresaliente?}
 
-F -->|No| G[End Process]
-F -->|Yes| H[Global Nominee]
+F -->|No| G[Fin]
+F -->|Yes| H[Nominado Global]
 
-H --> I[Global Judging]
+H --> I[Jurado Global]
 
-I --> J[Impact]
-I --> K[Innovation]
-I --> L[Technical Quality]
-I --> M[Presentation]
+I --> J[Impacto]
+I --> K[Innovación]
+I --> L[Calidad Técnica]
+I --> M[Presentación
 
-J --> N[Score Consolidation]
+J --> N[Consolidación de Puntaje]
 K --> N
 L --> N
 M --> N
 
-N --> O{Top Ranked?}
+N --> O{¿Rankeado Top?}
 
-O -->|No| P[Honorable Mention]
-O -->|Yes| Q[Global Finalist]
+O -->|No| P[Mención Honorífica]
+O -->|Yes| Q[Finalista Global]
 
 Q --> R[Executive Judging]
 
-R --> S{Winner?}
+R --> S{¿Ganador?}
 
-S -->|No| T[Global Finalist]
-S -->|Yes| U[Global Winner]
+S -->|No| T[Finalista Global]
+S -->|Yes| U[Ganador Global]
 ```
